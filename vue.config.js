@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   pwa: {
-    name: 'YesPlayMusic',
+    name: 'More_n Music',
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
     },
@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'YesPlayMusic',
+      title: 'More_n Music',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
@@ -78,8 +78,8 @@ module.exports = {
       nodeIntegration: true,
       externals: ['@unblockneteasemusic/rust-napi'],
       builderOptions: {
-        productName: 'YesPlayMusic',
-        copyright: 'Copyright © YesPlayMusic',
+        productName: 'More_n Music',
+        copyright: 'Copyright © More_n Music',
         // compression: "maximum", // 机器好的可以打开，配置压缩，开启后会让 .AppImage 格式的客户端启动缓慢
         asar: true,
         publish: [
@@ -116,7 +116,7 @@ module.exports = {
               arch: ['x64'],
             },
           ],
-          publisherName: 'YesPlayMusic',
+          publisherName: 'More_n Music',
           icon: 'build/icons/icon.ico',
           publish: ['github'],
         },
